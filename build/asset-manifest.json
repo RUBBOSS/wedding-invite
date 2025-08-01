@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f6bd5d9a.css",
+    "main.js": "/static/js/main.bfe2e36c.js",
+    "static/js/453.06eafee1.chunk.js": "/static/js/453.06eafee1.chunk.js",
+    "static/media/1.JPG": "/static/media/1.4aa415604b3770a6d421.JPG",
+    "static/media/colorfulOnTheStairs.jpg": "/static/media/colorfulOnTheStairs.4aa415604b3770a6d421.jpg",
+    "static/media/3.JPG": "/static/media/3.548f22550253a2b0cf77.JPG",
+    "static/media/2.JPG": "/static/media/2.1c59bf9d30f90247f255.JPG",
+    "static/media/colorfulBackOnTheStairs.jpg": "/static/media/colorfulBackOnTheStairs.24f3fa48f12843200e93.jpg",
+    "static/media/cathedral.jpg": "/static/media/cathedral.c0684c6e75b8247e21a9.jpg",
+    "static/media/brideHouse.jpg": "/static/media/brideHouse.ca29bc3c06df627fe508.jpg",
+    "static/media/RA.png": "/static/media/RA.a82c4d20e45338721a27.png",
+    "static/media/startingPhoto.jpg": "/static/media/startingPhoto.b2af1d4ab0a516200f7d.jpg",
+    "static/media/groomHouse.jpg": "/static/media/groomHouse.ca94fa1d4a88f18b20f2.jpg",
+    "static/media/saveTheDate3.jpg": "/static/media/saveTheDate3.eff376f3bfae0700aee0.jpg",
+    "static/media/saveTheDate1.jpg": "/static/media/saveTheDate1.50fd06924cd0f50d3ac4.jpg",
+    "static/media/bg2.jpg": "/static/media/bg2.a58c0114c155eea8d773.jpg",
+    "static/media/saveTheDate2.jpg": "/static/media/saveTheDate2.c49cb61dea4714cc7db9.jpg",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/index.html",
+    "main.f6bd5d9a.css.map": "/static/css/main.f6bd5d9a.css.map",
+    "main.bfe2e36c.js.map": "/static/js/main.bfe2e36c.js.map",
+    "453.06eafee1.chunk.js.map": "/static/js/453.06eafee1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f6bd5d9a.css",
+    "static/js/main.bfe2e36c.js"
+  ]
+}
