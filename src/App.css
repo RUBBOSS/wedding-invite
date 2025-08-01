@@ -1,0 +1,379 @@
+.main_bg {
+  background-image: url('./assets/bg2.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  gap: 80px;
+}
+
+.starting_bg {
+  background-image: url('./assets/startingPhoto.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 500px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom-left-radius: 52px;
+  border-bottom-right-radius: 52px;
+}
+
+.starting_bg>img {
+  width: 300px;
+}
+
+.starting_bg>p {
+  margin-bottom: 30px;
+}
+
+.starting_bg>h2 {
+  font-size: 32px;
+  text-align: center;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.invitation {
+  color: #384b1a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 500px;
+  text-align: center;
+  gap: 60px;
+}
+
+.invitation>h1 {
+  font-size: 56px;
+  font-weight: 700;
+}
+
+.invitation>h2 {
+  line-height: 36px;
+}
+
+.saveTheDateMainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 500px;
+  width: 100%;
+  gap: 60px;
+}
+
+.saveTheDateMainContainer>p {
+  color: #384b1a;
+  font-size: 56px;
+  font-weight: 600;
+}
+
+.saveTheDateContainer {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+}
+
+.saveTheDate_Date {
+  font-size: 50px;
+}
+
+.saveTheDate1 {
+  background-image: url('./assets/saveTheDate1.jpg');
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 250px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.9);
+  border-radius: 16px;
+}
+
+.saveTheDate2 {
+  background-image: url('./assets/saveTheDate2.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 250px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.9);
+  border-radius: 16px;
+}
+
+.saveTheDate3 {
+  background-image: url('./assets/saveTheDate3.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 250px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.9);
+  border-radius: 16px;
+}
+
+.colorfulOnTheStairsLooking {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 16px;
+  height: 600px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.colorfulOnTheStairsBackWalking {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 16px;
+  height: 600px;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+.countdownContainer {
+  color: #384b1a;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.borderRight {
+  border-right: 1px solid #384b1a;
+  padding-right: 20px;
+  text-align: center;
+}
+
+.borderLeft {
+  border-left: 1px solid #384b1a;
+  padding-left: 20px;
+  text-align: center;
+}
+
+.dailyProgram {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 500px;
+  gap: 60px;
+  color: #384b1a;
+}
+
+.eachProgram {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.eachProgram>img {
+  width: 50%;
+  border-radius: 16px;
+}
+
+.programInfo {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.programInfo>b {
+  font-size: 24px;
+}
+
+.programInfo>p {
+  font-size: 24px;
+}
+
+.asortion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.asortion>img {
+  border-radius: 16px;
+}
+
+.assortionSide {
+  width: 300px;
+  height: 400px;
+}
+
+.assortionCenter {
+  width: 400px;
+  height: 500px;
+}
+
+.sliderContainer {
+  display: flex;
+  width: 100%;
+  max-width: 500px;
+}
+
+.assortionImage {
+  width: 400px;
+  height: 400px;
+}
+
+.carouselItem {
+  width: 300px;
+  height: 300px;
+}
+
+.slider-container {
+  max-width: 300px;
+}
+
+.carouselItem>img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.slick-track {
+  display: flex;
+  gap: 20px;
+}
+
+.waiting {
+  color: #384b1a;
+  font-size: 46px;
+}
+
+@media (max-width: 768px) {
+  .main_bg {
+    gap: 40px;
+  }
+
+  .starting_bg {
+    width: 100%;
+    height: 400px;
+  }
+
+  .starting_bg>img {
+    width: 200px;
+  }
+
+  .starting_bg>h2 {
+    font-size: 28px;
+    max-width: 200px;
+  }
+
+
+  .starting_bg>p {
+    margin-bottom: 10px;
+  }
+
+  .invitation {
+    gap: 30px;
+  }
+
+  .invitation>h1 {
+    font-size: 30px;
+  }
+
+  .invitation>h2 {
+    font-size: 18px;
+  }
+
+  .colorfulOnTheStairsLooking {
+    width: 90%;
+    max-width: 100%;
+    height: 450px;
+  }
+
+  .saveTheDateMainContainer {
+    width: 90%;
+    gap: 30px;
+  }
+
+  .saveTheDateMainContainer>p {
+    font-size: 30px;
+  }
+
+  .saveTheDateContainer {
+    gap: 10px;
+  }
+
+  .saveTheDate1 {
+    height: 200px;
+  }
+
+  .saveTheDate2 {
+    height: 200px;
+  }
+
+  .saveTheDate3 {
+    height: 200px;
+  }
+
+  .countdownContainer {
+    gap: 10px;
+  }
+
+  .countdownContainer>div {
+    font-size: 20px;
+  }
+
+  .dailyProgram>h1 {
+    font-size: 30px;
+  }
+
+  .dailyProgram {
+    gap: 30px;
+    width: 90%;
+  }
+
+  .programInfo>b {
+    font-size: 20px;
+  }
+
+  .programInfo>p {
+    font-size: 20px;
+  }
+
+  .programInfo {
+    width: 100%;
+  }
+
+  .eachProgram {
+    gap: 10px;
+  }
+
+  .colorfulOnTheStairsBackWalking {
+    width: 90%;
+    max-width: 100%;
+    height: 450px;
+  }
+
+  .waiting {
+    color: #384b1a;
+    font-size: 30px;
+  }
+}
