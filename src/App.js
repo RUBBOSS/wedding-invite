@@ -13,6 +13,8 @@ import assortion3 from './assets/3.JPG'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { Swiper, SwiperSlide } from "swiper/react";
+import 'swiper/css';
 
 function App() {
   const targetDate = '2025-08-30'
@@ -81,13 +83,10 @@ function App() {
         </div>
       </div>
 
-      {/* <div className='asortion'>
-        <img alt='' src={assortion1} className='assortionSide'/>
-        <img alt='' src={assortion2} className='assortionCenter'/>
-        <img alt='' src={assortion3} className='assortionSide'/>
-      </div> */}
-
-      <Carousel />
+      <div className='asortion'>
+        <img alt='' src={assortion2} className='assortion1'/>
+        <img alt='' src={assortion3} className='assortion2'/>
+      </div>
 
       <div className='dailyProgram'>
         <h1>Օրվա ծրագիր</h1>

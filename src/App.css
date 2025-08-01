@@ -176,6 +176,7 @@
   width: 100%;
   max-width: 500px;
   gap: 60px;
+  margin-top: 580px;
   color: #384b1a;
 }
 
@@ -208,37 +209,33 @@
 }
 
 .asortion {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
+  position: relative;
   max-width: 500px;
   width: 100%;
 }
 
 .asortion>img {
   border-radius: 16px;
+  width: 340px;
+  height: 450px;
 }
 
-.assortionSide {
-  width: 300px;
-  height: 400px;
+.assortion1 {
+  position: absolute;
+  top: 0px;
+  left: 0;
 }
 
-.assortionCenter {
-  width: 400px;
-  height: 500px;
+.assortion2 {
+  position: absolute;
+  top: 160px;
+  right: -120px;
 }
 
 .sliderContainer {
   display: flex;
   width: 100%;
   max-width: 500px;
-}
-
-.assortionImage {
-  width: 400px;
-  height: 400px;
 }
 
 .carouselItem {
@@ -348,6 +345,7 @@
   .dailyProgram {
     gap: 30px;
     width: 90%;
+    margin-top: 540px;
   }
 
   .programInfo>b {
@@ -375,5 +373,24 @@
   .waiting {
     color: #384b1a;
     font-size: 30px;
+  }
+
+  .asortion>img {
+    border-radius: 16px;
+    width: 220px;
+    height: 330px;
+  }
+
+  .assortion1 {
+    margin-top: 40px;
+  }
+
+  .assortion1 {
+    left: 20px;
+  }
+
+  .assortion2 {
+    top: 200px;
+    right: 20px;
   }
 }
