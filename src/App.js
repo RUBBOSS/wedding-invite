@@ -7,13 +7,8 @@ import colorfulBackOnTheStairs from './assets/colorfulBackOnTheStairs.jpg';
 import groomHouse from './assets/groomHouse.jpg'
 import brideHouse from './assets/brideHouse.jpg'
 import catedral from './assets/cathedral.jpg'
-import assortion1 from './assets/1.JPG'
 import assortion2 from './assets/2.JPG'
 import assortion3 from './assets/3.JPG'
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import 'swiper/css';
 
 function App() {
   const targetDate = '2025-08-30'
@@ -134,30 +129,3 @@ function App() {
 }
 
 export default App;
-
-function Carousel() {
- const settings = {
-    infinite: true,
-    slidesToShow: 2,
-    slidesToScroll: 1,
-    autoplay: false,
-    speed: 2000,
-    autoplaySpeed: 2000,
-    cssEase: "linear"
-  };
-  return (
-    <div className="slider-container">
-      <Slider {...settings}>
-        <div className="carouselItem">
-          <img alt='' src={assortion1} />
-        </div>
-        <div className="carouselItem">
-          <img alt='' src={assortion2} />
-        </div>
-        <div className="carouselItem">
-          <img alt='' src={assortion3} />
-        </div>
-      </Slider>
-    </div>
-  );
-}
