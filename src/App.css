@@ -376,33 +376,35 @@
   }
 
   .asortion>img {
-    -webkit-font-smoothing: antialiased;
-    font-family: Dancing Script,"Noto Serif",serif;
-    color: #fff;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    border-radius: 16px;
+    -webkit-font-smoothing: antialiased !important;
+    font-family: 'Dancing Script', 'Noto Serif', serif !important;
+    color: #fff !important;
+    box-sizing: border-box !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border-radius: 16px !important;
+    width: 235px !important;
+    height: 325px !important;
   }
 
   .assortion1 {
-    position: absolute;
-    top: 0;
-    margin-top: 40px;
-    border-radius: 16px;
-    width: 235px;
-    height: 325px;
-    right: 142px;
-    left: 5px;
+    position: absolute !important;
+    top: 0 !important;
+    margin-top: 40px !important;
+    border-radius: 16px !important;
+    width: 235px !important;
+    height: 325px !important;
+    right: 142px !important;
+    left: 5px !important;
   }
 
   .assortion2 {
-    position: absolute;
-    top: 200px;
-    border-radius: 16px;
-    height: 325px;
-    width: 235px;
-    left: 150px;
-    right: 12px;
+    position: absolute !important;
+    top: 200px !important;
+    border-radius: 16px !important;
+    height: 325px !important;
+    width: 235px !important;
+    left: 150px !important;
+    right: 12px !important;
   }
 }
