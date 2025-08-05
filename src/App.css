@@ -376,21 +376,33 @@
   }
 
   .asortion>img {
+    -webkit-font-smoothing: antialiased;
+    font-family: Dancing Script,"Noto Serif",serif;
+    color: #fff;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
     border-radius: 16px;
-    width: 240px;
-    height: 340px;
   }
 
   .assortion1 {
+    position: absolute;
+    top: 0;
     margin-top: 40px;
-  }
-
-  .assortion1 {
-    left: 20px;
+    border-radius: 16px;
+    width: 235px;
+    height: 325px;
+    right: 142px;
+    left: 5px;
   }
 
   .assortion2 {
+    position: absolute;
     top: 200px;
-    right: 20px;
+    border-radius: 16px;
+    height: 325px;
+    width: 235px;
+    left: 150px;
+    right: 12px;
   }
 }
