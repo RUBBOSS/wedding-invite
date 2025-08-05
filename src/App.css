@@ -131,18 +131,18 @@
 
 .colorfulOnTheStairsLooking {
   width: 100%;
-  max-width: 500px;
+  max-width: 600px;
   border-radius: 16px;
-  height: 600px;
+  height: 700px;
   object-fit: cover;
   object-position: center;
 }
 
 .colorfulOnTheStairsBackWalking {
   width: 100%;
-  max-width: 500px;
+  max-width: 600px;
   border-radius: 16px;
-  height: 600px;
+  height: 700px;
   object-fit: cover;
   object-position: bottom;
 }
@@ -176,7 +176,7 @@
   width: 100%;
   max-width: 500px;
   gap: 60px;
-  margin-top: 580px;
+  margin-top: 720px;
   color: #384b1a;
 }
 
@@ -210,14 +210,14 @@
 
 .asortion {
   position: relative;
-  max-width: 500px;
+  max-width: 600px;
   width: 100%;
 }
 
 .asortion>img {
   border-radius: 16px;
-  width: 340px;
-  height: 450px;
+  width: 400px;
+  height: 520px;
 }
 
 .assortion1 {
@@ -300,9 +300,9 @@
   }
 
   .colorfulOnTheStairsLooking {
-    width: 90%;
+    width: 95%;
     max-width: 100%;
-    height: 450px;
+    height: 520px;
   }
 
   .saveTheDateMainContainer {
@@ -345,7 +345,7 @@
   .dailyProgram {
     gap: 30px;
     width: 90%;
-    margin-top: 540px;
+    margin-top: 580px;
   }
 
   .programInfo>b {
@@ -365,9 +365,9 @@
   }
 
   .colorfulOnTheStairsBackWalking {
-    width: 90%;
+    width: 95%;
     max-width: 100%;
-    height: 450px;
+    height: 520px;
   }
 
   .waiting {
@@ -377,8 +377,8 @@
 
   .asortion>img {
     border-radius: 16px;
-    width: 220px;
-    height: 330px;
+    width: 240px;
+    height: 340px;
   }
 
   .assortion1 {
