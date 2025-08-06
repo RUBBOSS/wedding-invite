@@ -39,7 +39,7 @@ p {
   background-position: center;
   background-size: cover;
   width: 100%;
-  height: 100%;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -252,6 +252,7 @@ p {
 
 .programInfo>p {
   font-size: 26px;
+  line-height: 1.2;
 }
 
 .asortion {
@@ -312,6 +313,8 @@ p {
 @media (max-width: 768px) {
   .main_bg {
     gap: 40px;
+    min-height: 100vh;
+    padding-bottom: 40px;
   }
 
   .starting_bg {
@@ -354,6 +357,7 @@ p {
   .saveTheDateMainContainer {
     width: 90%;
     gap: 30px;
+    margin-bottom: 20px;
   }
 
   .saveTheDateMainContainer>p {
@@ -377,14 +381,52 @@ p {
   }
 
   .countdownContainer {
-    gap: 10px;
+    gap: 8px;
     flex-wrap: nowrap;
     white-space: nowrap;
+    font-size: 32px !important;
+    justify-content: center;
+    width: 95%;
+    max-width: 400px;
+    margin: 0 auto;
+    line-height: 0.8 !important;
+    padding: 15px 5px;
   }
 
   .countdownContainer>div {
-    font-size: 26px;
-    flex-shrink: 0;
+    font-size: 32px !important;
+    line-height: 0.8 !important;
+    flex-shrink: 1;
+    min-width: 0;
+    padding: 0 !important;
+    margin: 0 !important;
+    height: auto !important;
+  }
+
+  .countdownContainer .armenian-text {
+    font-size: 32px !important;
+    line-height: 0.8 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    height: auto !important;
+  }
+
+  .countdownContainer div.armenian-text {
+    font-size: 32px !important;
+    line-height: 0.8 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    height: auto !important;
+  }
+
+  .countdown-text {
+    font-size: 32px !important;
+    line-height: 0.8 !important;
+  }
+
+  .countdownContainer .countdown-text {
+    font-size: 32px !important;
+    line-height: 0.8 !important;
   }
 
   .dailyProgram>h1 {
@@ -405,6 +447,7 @@ p {
 
   .programInfo>p {
     font-size: 22px;
+    line-height: 1.1;
   }
 
   .programInfo {
@@ -438,6 +481,11 @@ p {
     height: 325px !important;
   }
 
+  .programInfo img {
+    width: 60px !important;
+    height: 30px !important;
+  }
+
   .assortion1 {
     position: absolute !important;
     top: 0 !important;
@@ -457,5 +505,10 @@ p {
     width: 235px !important;
     left: 150px !important;
     right: 12px !important;
+  }
+
+  .love-arrow {
+    width: 100px !important;
+    height: 100px !important;
   }
 }
