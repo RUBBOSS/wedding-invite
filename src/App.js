@@ -8,9 +8,10 @@ import groomHouse from './assets/groomHouse.jpg'
 import brideHouse from './assets/brideHouse.jpg'
 import catedral from './assets/cathedral.jpg'
 import registration from './assets/registration.PNG'
-import ashtarak from './assets/Ashtarak.JPG'
+import restoraunt from './assets/restoraunt.JPG'
 import assortion2 from './assets/2.JPG'
 import assortion3 from './assets/3.JPG'
+import placeholder from './assets/placeholder.png'
 
 function App() {
   const targetDate = '2025-08-30'
@@ -50,8 +51,8 @@ function App() {
       </div>
 
       <div className='invitation'>
-        <h1>Հարսանյաց հրավեր</h1>
-        <h2>Հարգելի ընկերներ և բարեկամներ. <br /> Հրավիրում ենք Ձեզ՝ կիսելու մեզ հետ մեր կյանքի ամենահիշարժան և կարևոր օրը:</h2>
+        <h1 className="armenian-heading">Հարսանյաց հրավեր</h1>
+        <h2 className="armenian-text">Հարգելի ընկերներ և բարեկամներ. <br /> Հրավիրում ենք Ձեզ՝ կիսելու մեզ հետ մեր կյանքի ամենահիշարժան և կարևոր օրը:</h2>
       </div>
 
       <img alt='wlooking' src={colorfulOnTheStairs} className='colorfulOnTheStairsLooking' />
@@ -72,68 +73,69 @@ function App() {
         </div>
 
         <div className='countdownContainer'>
-          <div className='borderRight'>{timeLeft.days} Օր</div>
-          <div className='borderRight'>{timeLeft.hours} Ժամ</div>
-          <div>{timeLeft.minutes} Րոպե</div>
-          <div className='borderLeft'>{timeLeft.seconds} Վայրկյան</div>
+          <div className='borderRight armenian-text'>{timeLeft.days} Օր</div>
+          <div className='borderRight armenian-text'>{timeLeft.hours} Ժամ</div>
+          <div className='armenian-text'>{timeLeft.minutes} Րոպե</div>
+          <div className='borderLeft armenian-text'>{timeLeft.seconds} Վայրկյան</div>
         </div>
       </div>
 
       <div className='asortion'>
-        <img alt='' src={assortion2} className='assortion1'/>
-        <img alt='' src={assortion3} className='assortion2'/>
+        <img alt='' src={assortion2} className='assortion1' />
+        <img alt='' src={assortion3} className='assortion2' />
       </div>
 
       <div className='dailyProgram'>
-        <h1>Օրվա ծրագիր</h1>
+        <h1 className="armenian-heading">Օրվա ծրագիր</h1>
 
         <div className='eachProgram'>
           <img alt='' src={groomHouse} />
           <div className='programInfo'>
-            <b>Փեսայի տուն</b>
-            <p>ժ. 11:00</p>
-            <p>ք. Երևան, Նորաշեն 47</p>
+            <img alt='placeholder' src={placeholder} style={{width: '80px', height: '80px', objectFit: 'contain', borderRadius: '8px', marginBottom: '10px'}} />
+            <b className="armenian-text">Փեսայի տուն</b>
+            <p className="armenian-text">ժ. 11:00</p>
+            <p className="armenian-text">ք. Երևան, Նորաշեն 47</p>
           </div>
         </div>
         <div className='eachProgram'>
           <div className='programInfo'>
-            <b>Հարսի տուն</b>
-            <p>ժ. 13:00</p>
-            <p>ք. Երևան, Նոր-Նորք Մառի 5</p>
+            <b className="armenian-text">Հարսի տուն</b>
+            <p className="armenian-text">ժ. 13:00</p>
+            <p className="armenian-text">ք. Երևան, Նոր-Նորք Մառի 5</p>
           </div>
           <img alt='' src={brideHouse} />
         </div>
         <div className='eachProgram'>
           <img alt='' src={catedral} />
           <div className='programInfo'>
-            <b>Պսակադրություն</b>
-            <p>ժ. 15:30</p>
-            <p>Սաղմոսավանք</p>
+            <b className="armenian-text">Պսակադրություն</b>
+            <p className="armenian-text">ժ. 15:30</p>
+            <p className="armenian-text">Սաղմոսավանք</p>
           </div>
         </div>
         <div className='eachProgram'>
           <div className='programInfo'>
-            <b>Ամուսնության գրանցում</b>
-            <p>ժ. 16:00</p>
-            <p>Սաղմոսավանք</p>
+            <b className="armenian-text">Ամուսնության գրանցում</b>
+            <p className="armenian-text">ժ. 16:00</p>
+            <p className="armenian-text">Սաղմոսավանք</p>
           </div>
           <img alt='' src={registration} />
         </div>
         <div className='eachProgram'>
-          <img alt='' src={ashtarak} />
+          <img alt='' src={restoraunt} />
           <div className='programInfo'>
-            <b>Հարսանյաց հանդիսություն</b>
-            <p>ժ. 17:00</p>
-            <p>Ashtarak Hall - ք. Աշտարակ Երևանյան 101/1</p>
+            <b className="armenian-text">Հարսանյաց հանդիսություն</b>
+            <p className="armenian-text">ժ. 17:00</p>
+            <p>Ashtarak Hall - <span className="armenian-text">ք. Աշտարակ Երևանյան 101/1</span></p>
           </div>
         </div>
       </div>
 
       <img alt='' src={colorfulBackOnTheStairs} className='colorfulOnTheStairsBackWalking' />
-      
-      <h1 className="waiting">Սիրով սպասում ենք</h1>
 
-      <br/>
+      <h1 className="waiting armenian-heading">Սիրով սպասում ենք</h1>
+
+      <br />
     </div>
   );
 }

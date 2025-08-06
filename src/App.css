@@ -1,3 +1,38 @@
+/* Armenian Text Styling */
+.armenian-text {
+  font-family: 'ArmAllegro', 'Noto Serif Armenian', 'Noto Sans Armenian', 'Noto Serif', serif;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.armenian-heading {
+  font-family: 'ArmAllegro', 'Cormorant Garamond', 'Noto Serif Armenian', serif;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+/* ArmAllegro font integration */
+@font-face {
+  font-family: 'ArmAllegro';
+  src: url('./assets/fonts/ArmAllegroU.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  font-family: 'ArmAllegro', 'Dancing Script', 'Noto Serif Armenian', 'Arial', sans-serif;
+}
+
+/* Make paragraphs a little bigger */
+p {
+  font-size: 30px !important;
+}
+
+.norkirk-text {
+  font-family: 'ArmAllegro', 'Noto Serif Armenian', serif;
+}
+
 .main_bg {
   background-image: url('./assets/bg2.jpg');
   background-repeat: no-repeat;
@@ -58,7 +93,8 @@
 }
 
 .invitation>h2 {
-  line-height: 36px;
+  font-size: 36px;
+  line-height: 40px;
 }
 
 .saveTheDateMainContainer {
@@ -73,7 +109,7 @@
 
 .saveTheDateMainContainer>p {
   color: #384b1a;
-  font-size: 56px;
+  font-size: 60px !important;
   font-weight: 600;
 }
 
@@ -84,7 +120,7 @@
 }
 
 .saveTheDate_Date {
-  font-size: 50px;
+  font-size: 60px !important;
 }
 
 .saveTheDate1 {
@@ -96,7 +132,7 @@
   height: 250px;
   display: flex;
   align-items: flex-end;
-  justify-content: flex-end;
+  justify-content: center;
   text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.9);
   border-radius: 16px;
 }
@@ -110,7 +146,7 @@
   height: 250px;
   display: flex;
   align-items: flex-end;
-  justify-content: flex-end;
+  justify-content: center;
   text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.9);
   border-radius: 16px;
 }
@@ -124,7 +160,7 @@
   height: 250px;
   display: flex;
   align-items: flex-end;
-  justify-content: flex-end;
+  justify-content: center;
   text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.9);
   border-radius: 16px;
 }
@@ -152,8 +188,10 @@
   display: flex;
   align-items: center;
   gap: 20px;
-  font-size: 24px;
+  font-size: 30px;
   font-weight: 500;
+  flex-wrap: nowrap;
+  white-space: nowrap;
 }
 
 .borderRight {
@@ -180,6 +218,11 @@
   color: #384b1a;
 }
 
+.dailyProgram>h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
 .eachProgram {
   display: flex;
   justify-content: space-between;
@@ -189,6 +232,8 @@
 
 .eachProgram>img {
   width: 50%;
+  height: 300px;
+  object-fit: cover;
   border-radius: 16px;
 }
 
@@ -201,11 +246,12 @@
 }
 
 .programInfo>b {
-  font-size: 24px;
+  font-size: 35px;
+  font-weight: bold;
 }
 
 .programInfo>p {
-  font-size: 24px;
+  font-size: 26px;
 }
 
 .asortion {
@@ -296,7 +342,7 @@
   }
 
   .invitation>h2 {
-    font-size: 18px;
+    font-size: 24px;
   }
 
   .colorfulOnTheStairsLooking {
@@ -311,7 +357,7 @@
   }
 
   .saveTheDateMainContainer>p {
-    font-size: 30px;
+    font-size: 48px !important;
   }
 
   .saveTheDateContainer {
@@ -332,14 +378,18 @@
 
   .countdownContainer {
     gap: 10px;
+    flex-wrap: nowrap;
+    white-space: nowrap;
   }
 
   .countdownContainer>div {
-    font-size: 20px;
+    font-size: 26px;
+    flex-shrink: 0;
   }
 
   .dailyProgram>h1 {
-    font-size: 30px;
+    font-size: 35px;
+    font-weight: bold;
   }
 
   .dailyProgram {
@@ -349,11 +399,12 @@
   }
 
   .programInfo>b {
-    font-size: 20px;
+    font-size: 28px;
+    font-weight: bold;
   }
 
   .programInfo>p {
-    font-size: 20px;
+    font-size: 22px;
   }
 
   .programInfo {
