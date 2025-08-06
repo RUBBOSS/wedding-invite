@@ -7,6 +7,8 @@ import colorfulBackOnTheStairs from './assets/colorfulBackOnTheStairs.jpg';
 import groomHouse from './assets/groomHouse.jpg'
 import brideHouse from './assets/brideHouse.jpg'
 import catedral from './assets/cathedral.jpg'
+import registration from './assets/registration.PNG'
+import ashtarak from './assets/Ashtarak.JPG'
 import assortion2 from './assets/2.JPG'
 import assortion3 from './assets/3.JPG'
 
@@ -111,11 +113,19 @@ function App() {
         </div>
         <div className='eachProgram'>
           <div className='programInfo'>
+            <b>Ամուսնության գրանցում</b>
+            <p>ժ. 16:00</p>
+            <p>Սաղմոսավանք</p>
+          </div>
+          <img alt='' src={registration} />
+        </div>
+        <div className='eachProgram'>
+          <img alt='' src={ashtarak} />
+          <div className='programInfo'>
             <b>Հարսանյաց հանդիսություն</b>
             <p>ժ. 17:00</p>
             <p>Ashtarak Hall - ք. Աշտարակ Երևանյան 101/1</p>
           </div>
-          <img alt='' src={groomHouse} />
         </div>
       </div>
 
