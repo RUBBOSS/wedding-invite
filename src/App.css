@@ -38,6 +38,12 @@ p {
   font-size: 30px !important;
 }
 
+/* Make welcome text bigger on desktop */
+.welcome-screen p {
+  font-size: 2.2rem !important;
+  margin-bottom: 40px !important;
+}
+
 .norkirk-text {
   font-family: 'ArmAllegro', 'Noto Serif Armenian', serif;
 }
@@ -582,7 +588,7 @@ p {
   }
 
   .welcome-screen p {
-    font-size: 1rem !important;
+    font-size: 1.6rem !important;
     margin-bottom: 30px !important;
   }
 
@@ -659,7 +665,7 @@ p {
 @media (max-width: 390px) {
   /* Make welcome text bigger on 390x844 screens */
   .welcome-screen p {
-    font-size: 1.5rem !important;
+    font-size: 2.0rem !important;
     margin-bottom: 30px !important;
   }
 
@@ -738,5 +744,27 @@ p {
     font-size: 3rem !important;
     margin-bottom: 15px !important;
     color: #AAB99A !important;
+  }
+
+  /* Fix assortion images positioning for iPhone 15 Pro and similar devices */
+  .assortion1 {
+    position: absolute !important;
+    top: 0 !important;
+    margin-top: 40px !important;
+    border-radius: 16px !important;
+    width: 180px !important;
+    height: 250px !important;
+    left: 10px !important;
+    right: auto !important;
+  }
+
+  .assortion2 {
+    position: absolute !important;
+    top: 160px !important;
+    border-radius: 16px !important;
+    height: 250px !important;
+    width: 180px !important;
+    left: 180px !important;
+    right: auto !important;
   }
 }

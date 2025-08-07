@@ -77,7 +77,7 @@ function App() {
         <h1 className="armenian-heading" style={{fontSize: '3rem', marginBottom: '20px', color: '#AAB99A'}}>
           Հարսանյաց հրավեր
         </h1>
-        <p style={{fontSize: '1.2rem', marginBottom: '40px', maxWidth: '500px', color: '#AAB99A'}}>
+        <p style={{fontSize: '1.8rem', marginBottom: '40px', maxWidth: '500px', color: '#AAB99A'}}>
           Welcome to our wedding invitation
         </p>
         <button 
@@ -105,7 +105,7 @@ function App() {
   return (
     <div className="main_bg">
       <div className='starting_bg'>
-        <div style={{fontFamily: 'GeraldinePersonalUseItalic', fontSize: '6rem', color: 'white', marginBottom: '30px', fontWeight: 'normal', fontStyle: 'italic'}}>RA</div>
+        <div style={{fontFamily: 'ArmAllegro, Arial, sans-serif', fontSize: '6rem', color: 'white', marginBottom: '30px', fontWeight: 'bold', fontStyle: 'normal'}}>RA</div>
         <h2 style={{fontSize: '2rem'}}>Our forever begins today</h2>
       </div>
 
