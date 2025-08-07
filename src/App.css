@@ -630,18 +630,19 @@ p {
     gap: 4px !important;
     font-size: 26px !important;
     max-width: 380px !important;
-    padding: 12px 4px !important;
+    padding: 15px 4px 8px 4px !important;
     flex-wrap: nowrap !important;
     justify-content: space-between !important;
   }
 
   .countdownContainer>div {
     font-size: 46px !important;
-    line-height: 1.1 !important;
+    line-height: 1.5 !important;
     flex-shrink: 1;
     min-width: 0;
     text-align: center !important;
     overflow: hidden;
+    padding-bottom: 4px !important;
   }
 
   .countdownContainer .armenian-text,
@@ -649,7 +650,8 @@ p {
   .countdown-text,
   .countdownContainer .countdown-text {
     font-size: 26px !important;
-    line-height: 1.1 !important;
+    line-height: 1.5 !important;
+    padding-bottom: 4px !important;
   }
 }
 
@@ -674,36 +676,41 @@ p {
     gap: 4px !important;
     font-size: 24px !important;
     max-width: 350px !important;
-    padding: 10px 2px !important;
+    padding: 12px 2px 8px 2px !important;
   }
 
   .countdownContainer>div {
     font-size: 24px !important;
-    line-height: 0.9 !important;
+    line-height: 1.4 !important;
     flex-shrink: 1;
     min-width: 0;
     overflow-wrap: break-word;
     word-break: keep-all;
+    padding-bottom: 4px !important;
   }
 
   .countdownContainer .armenian-text {
     font-size: 24px !important;
-    line-height: 0.9 !important;
+    line-height: 1.4 !important;
+    padding-bottom: 4px !important;
   }
 
   .countdownContainer div.armenian-text {
     font-size: 24px !important;
-    line-height: 0.9 !important;
+    line-height: 1.4 !important;
+    padding-bottom: 4px !important;
   }
 
   .countdown-text {
     font-size: 24px !important;
-    line-height: 0.9 !important;
+    line-height: 1.4 !important;
+    padding-bottom: 4px !important;
   }
 
   .countdownContainer .countdown-text {
     font-size: 24px !important;
-    line-height: 0.9 !important;
+    line-height: 1.4 !important;
+    padding-bottom: 4px !important;
   }
 
   /* Additional fix for heart image on very small screens */

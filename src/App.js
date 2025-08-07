@@ -132,10 +132,10 @@ function App() {
         </div>
 
         <div className='countdownContainer'>
-          <div className='armenian-text countdown-text' style={{fontSize: '32px', lineHeight: '0.8', flexShrink: 1}}>{timeLeft.days} Օր</div>
-          <div className='armenian-text countdown-text' style={{fontSize: '32px', lineHeight: '0.8', flexShrink: 1}}>{timeLeft.hours} Ժամ</div>
-          <div className='armenian-text countdown-text' style={{fontSize: '32px', lineHeight: '0.8', flexShrink: 1}}>{timeLeft.minutes} Րոպե</div>
-          <div className='armenian-text countdown-text' style={{fontSize: '32px', lineHeight: '0.8', flexShrink: 1}}>{timeLeft.seconds} Վայրկյան</div>
+          <div className='armenian-text countdown-text' style={{fontSize: '32px', lineHeight: '1.5', flexShrink: 1, paddingBottom: '4px'}}>{timeLeft.days} Օր</div>
+          <div className='armenian-text countdown-text' style={{fontSize: '32px', lineHeight: '1.5', flexShrink: 1, paddingBottom: '4px'}}>{timeLeft.hours} Ժամ</div>
+          <div className='armenian-text countdown-text' style={{fontSize: '32px', lineHeight: '1.5', flexShrink: 1, paddingBottom: '4px'}}>{timeLeft.minutes} Րոպե</div>
+          <div className='armenian-text countdown-text' style={{fontSize: '32px', lineHeight: '1.5', flexShrink: 1, paddingBottom: '4px'}}>{timeLeft.seconds} Վայրկյան</div>
         </div>
       </div>
 
