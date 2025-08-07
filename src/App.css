@@ -48,7 +48,7 @@ p {
 }
 
 .starting_bg {
-  background-image: url('./assets/startingPhoto.jpg');
+  background-image: url('./assets/main.jpg');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -486,6 +486,19 @@ p {
     height: 30px !important;
   }
 
+  /* Fix for program images on mobile - prevent left side cropping */
+  .eachProgram>img {
+    width: 50% !important;
+    height: 250px !important;
+    object-fit: cover !important;
+    object-position: center !important;
+  }
+
+  /* Specific fix for brideHouse image to show more of the right side */
+  .eachProgram>img[src*="brideHouse"] {
+    object-position: right center !important;
+  }
+
   .assortion1 {
     position: absolute !important;
     top: 0 !important;
@@ -510,5 +523,117 @@ p {
   .love-arrow {
     width: 100px !important;
     height: 100px !important;
+    margin-top: 0px !important;
+  }
+
+  /* Mobile-specific styles for welcome screen to prevent overlapping */
+  .welcome-screen {
+    background-position: top center !important;
+    padding: 40px 20px !important;
+  }
+
+  .welcome-screen img {
+    width: 120px !important;
+    margin-bottom: 20px !important;
+  }
+
+  .welcome-screen .armenian-heading {
+    font-size: 2rem !important;
+    margin-bottom: 15px !important;
+  }
+
+  .welcome-screen p {
+    font-size: 1rem !important;
+    margin-bottom: 30px !important;
+  }
+
+  .welcome-screen button {
+    padding: 12px 25px !important;
+    font-size: 1rem !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  /* Fix heart image alignment in button on mobile */
+  .welcome-screen button img {
+    vertical-align: middle !important;
+    display: inline !important;
+    margin-top: 0px !important;
+    align-self: center !important;
+  }
+}
+
+/* Additional styles for very small mobile screens (like 390x844) */
+@media (max-width: 390px) {
+  /* Make welcome text bigger on 390x844 screens */
+  .welcome-screen p {
+    font-size: 1.5rem !important;
+    margin-bottom: 30px !important;
+  }
+
+  /* Override button styles specifically for 390x844 */
+  .welcome-screen button {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 10px 20px !important;
+    text-align: center !important;
+  }
+
+  .countdownContainer {
+    gap: 4px !important;
+    font-size: 24px !important;
+    max-width: 350px !important;
+    padding: 10px 2px !important;
+  }
+
+  .countdownContainer>div {
+    font-size: 24px !important;
+    line-height: 0.9 !important;
+    flex-shrink: 1;
+    min-width: 0;
+    overflow-wrap: break-word;
+    word-break: keep-all;
+  }
+
+  .countdownContainer .armenian-text {
+    font-size: 24px !important;
+    line-height: 0.9 !important;
+  }
+
+  .countdownContainer div.armenian-text {
+    font-size: 24px !important;
+    line-height: 0.9 !important;
+  }
+
+  .countdown-text {
+    font-size: 24px !important;
+    line-height: 0.9 !important;
+  }
+
+  .countdownContainer .countdown-text {
+    font-size: 24px !important;
+    line-height: 0.9 !important;
+  }
+
+  /* Additional fix for heart image on very small screens */
+  .welcome-screen button {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 10px 20px !important;
+  }
+
+  .welcome-screen button img {
+    width: 16px !important;
+    height: 16px !important;
+    margin-left: 6px !important;
+    margin-bottom: 0px !important;
+    flex-shrink: 0 !important;
+  }
+
+  .welcome-screen button span {
+    line-height: 1 !important;
   }
 }

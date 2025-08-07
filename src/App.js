@@ -2,6 +2,8 @@ import React from "react";
 import { useEffect, useState } from 'react';
 import './App.css';
 import RA from './assets/RA.png';
+import mainBg from './assets/mainBg.jpg';
+import heart from './assets/heart.png';
 import colorfulOnTheStairs from './assets/colorfulOnTheStairs.jpg';
 import colorfulBackOnTheStairs from './assets/colorfulBackOnTheStairs.jpg';
 import groomHouse from './assets/groomHouse.jpg'
@@ -64,16 +66,19 @@ function App() {
         alignItems: 'center',
         justifyContent: 'center',
         height: '100vh',
-        background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
-        color: 'white',
+        backgroundImage: `url(${mainBg})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
+        color: '#AAB99A',
         textAlign: 'center',
         padding: '20px'
       }}>
         <img src={RA} alt='R&A' style={{width: '150px', marginBottom: '30px'}} />
-        <h1 className="armenian-heading" style={{fontSize: '3rem', marginBottom: '20px'}}>
+        <h1 className="armenian-heading" style={{fontSize: '3rem', marginBottom: '20px', color: '#AAB99A'}}>
           Հարսանյաց հրավեր
         </h1>
-        <p style={{fontSize: '1.2rem', marginBottom: '40px', maxWidth: '500px'}}>
+        <p style={{fontSize: '1.2rem', marginBottom: '40px', maxWidth: '500px', color: '#AAB99A'}}>
           Welcome to our wedding invitation
         </p>
         <button 
@@ -81,7 +86,7 @@ function App() {
           style={{
             padding: '15px 30px',
             fontSize: '1.2rem',
-            backgroundColor: '#ff6b6b',
+            backgroundColor: '#AAB99A',
             color: 'white',
             border: 'none',
             borderRadius: '50px',
@@ -91,15 +96,16 @@ function App() {
             fontFamily: 'ArmAllegro, Arial, sans-serif'
           }}
           onMouseOver={(e) => {
-            e.target.style.backgroundColor = '#ff5252';
+            e.target.style.backgroundColor = '#9AA889';
             e.target.style.transform = 'translateY(-2px)';
           }}
           onMouseOut={(e) => {
-            e.target.style.backgroundColor = '#ff6b6b';
+            e.target.style.backgroundColor = '#AAB99A';
             e.target.style.transform = 'translateY(0)';
           }}
         >
-          Enter Our Wedding Invitation 💕
+          <span>Enter Our Wedding Invitation</span>
+          <img src={heart} alt="heart" style={{width: '20px', height: '20px', marginLeft: '8px'}} />
         </button>
       </div>
     );
@@ -110,7 +116,6 @@ function App() {
     <div className="main_bg">
       <div className='starting_bg'>
         <img src={RA} alt='R&A' />
-        <p>__________________</p>
         <h2>Our forever begins today</h2>
       </div>
 
@@ -137,10 +142,10 @@ function App() {
         </div>
 
         <div className='countdownContainer'>
-          <div className='armenian-text countdown-text' style={{fontSize: '32px !important', lineHeight: '0.8 !important'}}>{timeLeft.days} Օր</div>
-          <div className='armenian-text countdown-text' style={{fontSize: '32px !important', lineHeight: '0.8 !important'}}>{timeLeft.hours} Ժամ</div>
-          <div className='armenian-text countdown-text' style={{fontSize: '32px !important', lineHeight: '0.8 !important'}}>{timeLeft.minutes} Րոպե</div>
-          <div className='armenian-text countdown-text' style={{fontSize: '32px !important', lineHeight: '0.8 !important'}}>{timeLeft.seconds} Վայրկյան</div>
+          <div className='armenian-text countdown-text' style={{fontSize: '32px', lineHeight: '0.8', flexShrink: 1}}>{timeLeft.days} Օր</div>
+          <div className='armenian-text countdown-text' style={{fontSize: '32px', lineHeight: '0.8', flexShrink: 1}}>{timeLeft.hours} Ժամ</div>
+          <div className='armenian-text countdown-text' style={{fontSize: '32px', lineHeight: '0.8', flexShrink: 1}}>{timeLeft.minutes} Րոպե</div>
+          <div className='armenian-text countdown-text' style={{fontSize: '32px', lineHeight: '0.8', flexShrink: 1}}>{timeLeft.seconds} Վայրկյան</div>
         </div>
       </div>
 

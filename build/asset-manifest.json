@@ -1,33 +1,34 @@
 {
   "files": {
-    "main.css": "/static/css/main.afb4b133.css",
-    "main.js": "/static/js/main.fe9c1626.js",
+    "main.css": "/static/css/main.87bda211.css",
+    "main.js": "/static/js/main.dccb828a.js",
     "static/js/453.06eafee1.chunk.js": "/static/js/453.06eafee1.chunk.js",
-    "static/media/Lovesong.mp3": "/static/media/Lovesong.72cd94dc52f6959baa6e.mp3",
     "static/media/colorfulOnTheStairs.jpg": "/static/media/colorfulOnTheStairs.4aa415604b3770a6d421.jpg",
     "static/media/3.JPG": "/static/media/3.548f22550253a2b0cf77.JPG",
     "static/media/2.JPG": "/static/media/2.1c59bf9d30f90247f255.JPG",
     "static/media/colorfulBackOnTheStairs.jpg": "/static/media/colorfulBackOnTheStairs.24f3fa48f12843200e93.jpg",
+    "static/media/Lovesong.mp3": "/static/media/Lovesong.15a1700513c9cfd874d7.mp3",
     "static/media/registration.PNG": "/static/media/registration.91d220101c578f38b371.PNG",
     "static/media/restoraunt.JPG": "/static/media/restoraunt.30692981abf2e5ac3bc7.JPG",
     "static/media/cathedral.jpg": "/static/media/cathedral.c0684c6e75b8247e21a9.jpg",
-    "static/media/brideHouse.jpg": "/static/media/brideHouse.ca29bc3c06df627fe508.jpg",
     "static/media/RA.png": "/static/media/RA.a82c4d20e45338721a27.png",
-    "static/media/startingPhoto.jpg": "/static/media/startingPhoto.b2af1d4ab0a516200f7d.jpg",
     "static/media/groomHouse.jpg": "/static/media/groomHouse.ca94fa1d4a88f18b20f2.jpg",
     "static/media/ArmAllegroU.ttf": "/static/media/ArmAllegroU.1fa2762cd0d05d86cd2b.ttf",
     "static/media/saveTheDate3.jpg": "/static/media/saveTheDate3.eff376f3bfae0700aee0.jpg",
     "static/media/saveTheDate1.jpg": "/static/media/saveTheDate1.50fd06924cd0f50d3ac4.jpg",
+    "static/media/main.jpg": "/static/media/main.f3dc9e3470f4423629bf.jpg",
     "static/media/bg2.jpg": "/static/media/bg2.a58c0114c155eea8d773.jpg",
+    "static/media/mainBg.jpg": "/static/media/mainBg.279958338a050e320d9a.jpg",
     "static/media/saveTheDate2.jpg": "/static/media/saveTheDate2.c49cb61dea4714cc7db9.jpg",
     "static/media/point.png": "/static/media/point.4695b2b5a3a0b8e75c74.png",
+    "static/media/brideHouse.jpg": "/static/media/brideHouse.8f8729abc3abc70c17a7.jpg",
     "index.html": "/index.html",
-    "main.afb4b133.css.map": "/static/css/main.afb4b133.css.map",
-    "main.fe9c1626.js.map": "/static/js/main.fe9c1626.js.map",
+    "main.87bda211.css.map": "/static/css/main.87bda211.css.map",
+    "main.dccb828a.js.map": "/static/js/main.dccb828a.js.map",
     "453.06eafee1.chunk.js.map": "/static/js/453.06eafee1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.afb4b133.css",
-    "static/js/main.fe9c1626.js"
+    "static/css/main.87bda211.css",
+    "static/js/main.dccb828a.js"
   ]
 }
