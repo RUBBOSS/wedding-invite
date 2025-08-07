@@ -1,7 +1,6 @@
 import React from "react";
 import { useEffect, useState } from 'react';
 import './App.css';
-import RA from './assets/RA.png';
 import mainBg from './assets/mainBg.jpg';
 import heart from './assets/heart.png';
 import colorfulOnTheStairs from './assets/colorfulOnTheStairs.jpg';
@@ -74,7 +73,7 @@ function App() {
         textAlign: 'center',
         padding: '20px'
       }}>
-        <img src={RA} alt='R&A' style={{width: '150px', marginBottom: '30px'}} />
+        <div style={{fontFamily: 'GeraldinePersonalUseItalic', fontSize: '5rem', color: '#AAB99A', marginBottom: '30px', fontWeight: 'normal', fontStyle: 'italic'}}>RA</div>
         <h1 className="armenian-heading" style={{fontSize: '3rem', marginBottom: '20px', color: '#AAB99A'}}>
           Հարսանյաց հրավեր
         </h1>
@@ -92,20 +91,11 @@ function App() {
             borderRadius: '50px',
             cursor: 'pointer',
             boxShadow: '0 4px 15px rgba(0,0,0,0.2)',
-            transition: 'all 0.3s ease',
             fontFamily: 'ArmAllegro, Arial, sans-serif'
-          }}
-          onMouseOver={(e) => {
-            e.target.style.backgroundColor = '#9AA889';
-            e.target.style.transform = 'translateY(-2px)';
-          }}
-          onMouseOut={(e) => {
-            e.target.style.backgroundColor = '#AAB99A';
-            e.target.style.transform = 'translateY(0)';
           }}
         >
           <span>Enter Our Wedding Invitation</span>
-          <img src={heart} alt="heart" style={{width: '20px', height: '20px', marginLeft: '8px'}} />
+          <img src={heart} alt="heart" style={{width: '32px', height: '32px', marginLeft: '8px'}} />
         </button>
       </div>
     );
@@ -115,8 +105,8 @@ function App() {
   return (
     <div className="main_bg">
       <div className='starting_bg'>
-        <img src={RA} alt='R&A' />
-        <h2>Our forever begins today</h2>
+        <div style={{fontFamily: 'GeraldinePersonalUseItalic', fontSize: '6rem', color: 'white', marginBottom: '30px', fontWeight: 'normal', fontStyle: 'italic'}}>RA</div>
+        <h2 style={{fontSize: '2rem'}}>Our forever begins today</h2>
       </div>
 
       <div className='invitation'>

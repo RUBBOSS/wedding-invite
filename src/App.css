@@ -20,6 +20,15 @@
   font-display: swap;
 }
 
+/* GeraldinePersonalUseItalic font integration */
+@font-face {
+  font-family: 'GeraldinePersonalUseItalic';
+  src: url('./assets/fonts/GeraldinePersonalUseItalic-PK12m.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
 * {
   font-family: 'ArmAllegro', 'Dancing Script', 'Noto Serif Armenian', 'Arial', sans-serif;
 }
@@ -259,6 +268,9 @@ p {
   position: relative;
   max-width: 600px;
   width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
 
 .asortion>img {
@@ -311,10 +323,25 @@ p {
 }
 
 @media (max-width: 768px) {
+  /* Prevent horizontal scrolling and right side empty space */
+  body, html {
+    overflow-x: hidden !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  * {
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
   .main_bg {
     gap: 40px;
     min-height: 100vh;
     padding-bottom: 40px;
+    width: 100vw !important;
+    max-width: 100vw !important;
+    overflow-x: hidden !important;
   }
 
   .starting_bg {
@@ -499,6 +526,11 @@ p {
     object-position: right center !important;
   }
 
+  /* Add margin-left to asortion container on mobile */
+  .asortion {
+    margin-left: 22px !important;
+  }
+
   .assortion1 {
     position: absolute !important;
     top: 0 !important;
@@ -537,6 +569,13 @@ p {
     margin-bottom: 20px !important;
   }
 
+  /* RA text styling for mobile */
+  .welcome-screen div[style*="GeraldinePersonalUseItalic"] {
+    font-size: 4rem !important;
+    margin-bottom: 20px !important;
+    color: #AAB99A !important;
+  }
+
   .welcome-screen .armenian-heading {
     font-size: 2rem !important;
     margin-bottom: 15px !important;
@@ -561,6 +600,56 @@ p {
     display: inline !important;
     margin-top: 0px !important;
     align-self: center !important;
+    width: 32px !important;
+    height: 32px !important;
+    margin-bottom: 0px !important;
+    margin-left: 8px !important;
+  }
+}
+
+/* Additional media query for Pixel 7 and similar devices */
+@media (max-width: 430px) {
+  .welcome-screen button img {
+    width: 24px !important;
+    height: 24px !important;
+    margin-left: 6px !important;
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
+    flex-shrink: 0 !important;
+  }
+
+  /* RA text styling for Pixel 7 */
+  .welcome-screen div[style*="GeraldinePersonalUseItalic"] {
+    font-size: 3.5rem !important;
+    margin-bottom: 15px !important;
+    color: #AAB99A !important;
+  }
+
+  /* Fix countdown container overlapping on Pixel 7 */
+  .countdownContainer {
+    gap: 4px !important;
+    font-size: 26px !important;
+    max-width: 380px !important;
+    padding: 12px 4px !important;
+    flex-wrap: nowrap !important;
+    justify-content: space-between !important;
+  }
+
+  .countdownContainer>div {
+    font-size: 46px !important;
+    line-height: 1.1 !important;
+    flex-shrink: 1;
+    min-width: 0;
+    text-align: center !important;
+    overflow: hidden;
+  }
+
+  .countdownContainer .armenian-text,
+  .countdownContainer div.armenian-text,
+  .countdown-text,
+  .countdownContainer .countdown-text {
+    font-size: 26px !important;
+    line-height: 1.1 !important;
   }
 }
 
@@ -635,5 +724,12 @@ p {
 
   .welcome-screen button span {
     line-height: 1 !important;
+  }
+
+  /* RA text styling for very small screens */
+  .welcome-screen div[style*="GeraldinePersonalUseItalic"] {
+    font-size: 3rem !important;
+    margin-bottom: 15px !important;
+    color: #AAB99A !important;
   }
 }
