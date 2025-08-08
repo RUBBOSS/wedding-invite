@@ -567,9 +567,9 @@ p {
   }
 
   .love-arrow {
-    width: 100px !important;
-    height: 100px !important;
-    margin-top: 0px !important;
+    width: 60px !important;
+    height: 60px !important;
+    margin-top: 5px !important;
   }
 
   /* Mobile-specific styles for welcome screen to prevent overlapping */
@@ -888,6 +888,13 @@ p {
     font-size: 26px !important;
     font-weight: bold !important;
     display: inline !important;
+  }
+
+  /* Heart icon styles for iPhone 15 Pro */
+  .love-arrow {
+    width: 60px !important;
+    height: 60px !important;
+    margin-top: 5px !important;
   }
 
   /* Force override for mobile Safari */

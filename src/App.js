@@ -80,7 +80,7 @@ function App() {
           Հարսանյաց հրավեր
         </h1>
         <p style={{fontSize: '1.8rem', marginBottom: '40px', maxWidth: '500px', color: '#AAB99A'}}>
-          Welcome to our wedding invitation
+          We Invite You With Love
         </p>
         <button 
           onClick={handleEnterApp}
@@ -96,7 +96,7 @@ function App() {
             fontFamily: 'ArmAllegro, Arial, sans-serif'
           }}
         >
-          <span>Enter Our Wedding Invitation</span>
+          <span>Join Us</span>
           <img src={heart} alt="heart" style={{width: '32px', height: '32px', marginLeft: '8px'}} />
         </button>
       </div>
@@ -212,7 +212,7 @@ function App() {
       <h1 className="waiting armenian-heading">Սիրով սպասում ենք</h1>
 
       <div style={{filter: 'brightness(0) saturate(100%) invert(23%) sepia(11%) saturate(2851%) hue-rotate(55deg) brightness(97%) contrast(98%)'}}>
-        <img alt='heart' src={heart} className='love-arrow' style={{width: '200px', height: '200px', objectFit: 'contain', marginTop: '20px'}} />
+        <img alt='heart' src={heart} className='love-arrow' style={{width: '100px', height: '100px', objectFit: 'contain', marginTop: '10px'}} />
       </div>
 
       <br />
