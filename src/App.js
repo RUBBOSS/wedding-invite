@@ -201,7 +201,7 @@ function App() {
           <div className='programInfo'>
             <img alt='point' src={point} style={{width: '80px', height: '40px', objectFit: 'contain', borderRadius: '8px', marginBottom: '10px'}} />
             <b className="armenian-text">Հարսանյաց հանդիսություն</b>
-            <p className="armenian-text">ժ. 17:00</p>
+            <p className="armenian-text">ժ. 17:30</p>
             <p>Ashtarak Hall - <span className="armenian-text">ք. Աշտարակ Երևանյան 101/1</span></p>
           </div>
         </div>
