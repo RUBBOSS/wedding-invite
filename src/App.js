@@ -13,7 +13,6 @@ import restoraunt from './assets/restoraunt.JPG'
 import assortion2 from './assets/2.JPG'
 import assortion3 from './assets/3.JPG'
 import point from './assets/point.png'
-import loveArrow from './assets/loveArrow.png'
 import loveSong from './assets/Lovesong.mp3'
 
 function App() {
@@ -73,7 +72,10 @@ function App() {
         textAlign: 'center',
         padding: '20px'
       }}>
-        <div style={{fontFamily: 'GeraldinePersonalUseItalic', fontSize: '5rem', color: '#AAB99A', marginBottom: '30px', fontWeight: 'normal', fontStyle: 'italic'}}>RA</div>
+        <div style={{fontFamily: 'GeraldinePersonalUseItalic', fontSize: '5rem', color: '#AAB99A', marginBottom: '50px', fontWeight: 'normal', fontStyle: 'italic', position: 'relative', display: 'inline-block'}}>
+          <span style={{position: 'relative'}}>R</span>
+          <span style={{position: 'relative', marginLeft: '-15px', top: '15px'}}>A</span>
+        </div>
         <h1 className="armenian-heading" style={{fontSize: '3rem', marginBottom: '20px', color: '#AAB99A'}}>
           Հարսանյաց հրավեր
         </h1>
@@ -105,8 +107,11 @@ function App() {
   return (
     <div className="main_bg">
       <div className='starting_bg'>
-        <div style={{fontFamily: 'ArmAllegro, Arial, sans-serif', fontSize: '6rem', color: 'white', marginBottom: '30px', fontWeight: 'bold', fontStyle: 'normal'}}>RA</div>
-        <h2 style={{fontSize: '2rem'}}>Our forever begins today</h2>
+        <div style={{fontFamily: 'ArmAllegro, Arial, sans-serif', fontSize: '6rem', color: 'white', marginBottom: '100px', fontWeight: 'bold', fontStyle: 'normal', position: 'relative', display: 'inline-block'}}>
+          <span style={{position: 'relative'}}>R</span>
+          <span style={{position: 'relative', marginLeft: '-50px', top: '30px'}}>A</span>
+        </div>
+        <h2 style={{fontSize: '2rem', marginBottom: '100px'}}>Our forever begins today</h2>
       </div>
 
       <div className='invitation'>
@@ -131,11 +136,19 @@ function App() {
           </div>
         </div>
 
-        <div className='countdownContainer'>
-          <div className='armenian-text countdown-text' style={{fontSize: '32px', lineHeight: '1.5', flexShrink: 1, paddingBottom: '4px'}}>{timeLeft.days} Օր</div>
-          <div className='armenian-text countdown-text' style={{fontSize: '32px', lineHeight: '1.5', flexShrink: 1, paddingBottom: '4px'}}>{timeLeft.hours} Ժամ</div>
-          <div className='armenian-text countdown-text' style={{fontSize: '32px', lineHeight: '1.5', flexShrink: 1, paddingBottom: '4px'}}>{timeLeft.minutes} Րոպե</div>
-          <div className='armenian-text countdown-text' style={{fontSize: '32px', lineHeight: '1.5', flexShrink: 1, paddingBottom: '4px'}}>{timeLeft.seconds} Վայրկյան</div>
+        <div className='countdownContainer' style={{display: 'flex', gap: '0px', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'nowrap', width: '100%'}}>
+          <div className='armenian-text countdown-text' style={{marginRight: '4px', fontSize: '22px', lineHeight: '1.3', width: 'auto', minWidth: 'auto'}}>
+            <span className="countdown-number" style={{marginRight: '3px', fontWeight: 'bold'}}>{timeLeft.days}</span>Օր
+          </div>
+          <div className='armenian-text countdown-text' style={{marginRight: '4px', fontSize: '22px', lineHeight: '1.3', width: 'auto', minWidth: 'auto'}}>
+            <span className="countdown-number" style={{marginRight: '3px', fontWeight: 'bold'}}>{timeLeft.hours}</span>Ժամ
+          </div>
+          <div className='armenian-text countdown-text' style={{marginRight: '4px', fontSize: '22px', lineHeight: '1.3', width: 'auto', minWidth: 'auto'}}>
+            <span className="countdown-number" style={{marginRight: '3px', fontWeight: 'bold'}}>{timeLeft.minutes}</span>Րոպե
+          </div>
+          <div className='armenian-text countdown-text' style={{marginRight: '0px', fontSize: '22px', lineHeight: '1.3', width: 'auto', minWidth: 'auto'}}>
+            <span className="countdown-number" style={{marginRight: '3px', fontWeight: 'bold'}}>{timeLeft.seconds}</span>Վայրկյան
+          </div>
         </div>
       </div>
 
@@ -198,7 +211,7 @@ function App() {
 
       <h1 className="waiting armenian-heading">Սիրով սպասում ենք</h1>
 
-      <img alt='love arrow' src={loveArrow} className='love-arrow' style={{width: '200px', height: '200px', objectFit: 'contain', marginTop: '20px'}} />
+      <img alt='heart' src={heart} className='love-arrow' style={{width: '200px', height: '200px', objectFit: 'contain', marginTop: '20px', filter: 'brightness(0)'}} />
 
       <br />
     </div>
