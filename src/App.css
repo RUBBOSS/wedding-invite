@@ -562,8 +562,8 @@ p {
     border-radius: 16px !important;
     height: 325px !important;
     width: 235px !important;
-    left: 150px !important;
-    right: 12px !important;
+    left: 350px !important;
+    right: auto !important;
   }
 
   .love-arrow {
@@ -665,6 +665,28 @@ p {
   .saveTheDateMainContainer .countdownContainer .countdown-number {
     margin-right: 3px !important;
     font-size: 30px !important;
+  }
+
+  /* Apply iPhone 15 Pro assortion image styles to 430px breakpoint */
+  .assortion2 {
+    position: absolute !important;
+    top: 160px !important;
+    border-radius: 16px !important;
+    left: 240px !important;
+    right: auto !important;
+    height: 250px !important;
+    width: 180px !important;
+  }
+
+  .assortion1 {
+    position: absolute !important;
+    top: 0 !important;
+    margin-top: 40px !important;
+    border-radius: 16px !important;
+    left: 10px !important;
+    right: auto !important;
+    height: 250px !important;
+    width: 180px !important;
   }
 }
 
@@ -792,7 +814,7 @@ p {
     color: #AAB99A !important;
   }
 
-  /* Fix assortion images positioning for iPhone 15 Pro and similar devices */
+  /* Apply consistent assortion images positioning for 390px and similar devices */
   .assortion1 {
     position: absolute !important;
     top: 0 !important;
@@ -810,7 +832,7 @@ p {
     border-radius: 16px !important;
     height: 250px !important;
     width: 180px !important;
-    left: 180px !important;
+    left: 170px !important;
     right: auto !important;
   }
 }

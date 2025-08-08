@@ -107,11 +107,11 @@ function App() {
   return (
     <div className="main_bg">
       <div className='starting_bg'>
-        <div style={{fontFamily: 'ArmAllegro, Arial, sans-serif', fontSize: '6rem', color: 'white', marginBottom: '100px', fontWeight: 'bold', fontStyle: 'normal', position: 'relative', display: 'inline-block'}}>
-          <span style={{position: 'relative'}}>R</span>
-          <span style={{position: 'relative', marginLeft: '-50px', top: '30px'}}>A</span>
+        <div style={{fontFamily: 'ArmAllegro, Arial, sans-serif', fontSize: '6rem', color: '#F3E9DC', marginBottom: '100px', fontWeight: 'bold', fontStyle: 'normal', position: 'relative', display: 'inline-block'}}>
+          <span style={{position: 'relative', textShadow: '4px 4px 8px rgba(0,0,0,0.8)'}}>R</span>
+          <span style={{position: 'relative', marginLeft: '-50px', top: '30px', textShadow: '4px 4px 8px rgba(0,0,0,0.8)'}}>A</span>
         </div>
-        <h2 style={{fontSize: '2rem', marginBottom: '100px'}}>Our forever begins today</h2>
+        <h2 style={{fontSize: '2rem', marginBottom: '100px', color: '#F3E9DC'}}>Our forever begins today</h2>
       </div>
 
       <div className='invitation'>
@@ -211,7 +211,9 @@ function App() {
 
       <h1 className="waiting armenian-heading">Սիրով սպասում ենք</h1>
 
-      <img alt='heart' src={heart} className='love-arrow' style={{width: '200px', height: '200px', objectFit: 'contain', marginTop: '20px', filter: 'brightness(0)'}} />
+      <div style={{filter: 'brightness(0) saturate(100%) invert(23%) sepia(11%) saturate(2851%) hue-rotate(55deg) brightness(97%) contrast(98%)'}}>
+        <img alt='heart' src={heart} className='love-arrow' style={{width: '200px', height: '200px', objectFit: 'contain', marginTop: '20px'}} />
+      </div>
 
       <br />
     </div>
